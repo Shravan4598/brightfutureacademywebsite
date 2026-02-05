@@ -24,7 +24,7 @@ const Programs = () => {
     {
       icon: GraduationCap,
       title: "Middle School",
-      ages: "Grades 6-8",
+      ages: "Grades 6-10",
       description: "Challenging academics with personalized guidance for adolescent growth.",
       features: ["Advanced Studies", "Leadership", "Career Exploration"],
       color: "bg-primary/10",

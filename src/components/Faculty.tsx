@@ -1,66 +1,87 @@
 import { Mail, Linkedin } from "lucide-react";
 
-import facultyPrincipal from "@/assets/faculty-principal.jpg";
-import facultyScience from "@/assets/faculty-science.jpg";
+import facultyPrincipal from "@/assets/faculty-principal.jpeg";
+import facultyScience from "@/assets/faculty-science.jpeg";
 import facultyEnglish from "@/assets/faculty-english.jpg";
-import facultyMath from "@/assets/faculty-math.jpg";
+import facultyMath from "@/assets/faculty-math.jpeg";
 import facultyArt from "@/assets/faculty-art.jpg";
-import facultyPe from "@/assets/faculty-pe.jpg";
+import facultyMath1 from "@/assets/faculty-pe.jpg";
+import facultyPe1 from "@/assets/faculty-pe1.jpg";
+import facultyPe2 from "@/assets/faculty-pe2.jpg";
+
 
 const Faculty = () => {
   const facultyMembers = [
     {
       image: facultyPrincipal,
-      name: "Dr. Margaret Chen",
-      role: "Principal",
-      department: "Administration",
-      credentials: "Ed.D. Educational Leadership, Stanford University",
-      experience: "20+ years in education",
+      name: "Raj Shekhar",
+      role: "Director",
+      department: "Administration and Leadership",
+      credentials: "Bachelor of Science in Chemistry",
+      experience: "10+ years in education",
       quote: "Every child has the potential to shine.",
     },
     {
       image: facultyScience,
-      name: "Mr. David Thompson",
-      role: "Science Department Head",
-      department: "Science",
-      credentials: "M.S. Biology, MIT",
-      experience: "12 years teaching experience",
+      name: "Ganga Rani",
+      role: "Principal",
+      department: "Teaching and Curriculum Development",
+      credentials: "M.A. and B.Ed. in Hindi",
+      experience: "7 years teaching experience",
       quote: "Science is about asking the right questions.",
     },
     {
       image: facultyEnglish,
-      name: "Ms. Sarah Mitchell",
+      name: "Ajit Kumar Ray",
       role: "English Teacher",
-      department: "Language Arts",
-      credentials: "M.A. English Literature, Columbia University",
-      experience: "8 years teaching experience",
+      department: "Language Arts and Teaching",
+      credentials: "Bachelor of Arts in English",
+      experience: "5 years teaching experience",
       quote: "Literature opens windows to the world.",
     },
     {
-      image: facultyMath,
-      name: "Mr. Robert Garcia",
+      image: facultyMath1,
+      name: "Pallavi Kumari",
       role: "Mathematics Teacher",
       department: "Mathematics",
-      credentials: "M.S. Applied Mathematics, UCLA",
-      experience: "15 years teaching experience",
+      credentials: "Bachelor of Arts in Economics",
+      experience: "2 years teaching experience",
       quote: "Math is the language of the universe.",
     },
     {
       image: facultyArt,
-      name: "Ms. Emily Parker",
-      role: "Art Teacher",
-      department: "Visual Arts",
-      credentials: "M.F.A. Fine Arts, Rhode Island School of Design",
-      experience: "10 years teaching experience",
+      name: "Hemlata Devi",
+      role: "Hindi Teacher",
+      department: "Visual Arts and Teaching",
+      credentials: "Intermediate of Arts and Diploma in Elementary Education(D.El.Ed)",
+      experience: "4 years teaching experience",
       quote: "Creativity is intelligence having fun.",
     },
     {
-      image: facultyPe,
-      name: "Coach Michael Brooks",
-      role: "Physical Education",
-      department: "Athletics",
-      credentials: "B.S. Sports Science, Ohio State University",
-      experience: "7 years coaching experience",
+      image: facultyMath,
+      name: "Pradeep Kumar Pandey ",
+      role: "Maths Teacher",
+      department: "Athletics and Teaching",
+      credentials: "Bachelor of Commerce + Bachelor of Education (Accountancy)",
+      experience: "7 years teaching experience",
+      quote: "A healthy body nurtures a healthy mind.",
+    },
+    {
+      image: facultyPe1,
+      name: "Shankar Kumar Yadav",
+      role: "Social Science Teacher",
+      department: "Teaching",
+      credentials: "B.A. (Bachelor of Arts) in Geography and D.El.Ed (Diploma in Elementary Education) ",
+      experience: "2 years coaching experience",
+      quote: "Science is about asking the right questions.",
+    },
+    {
+      image: facultyPe2,
+      name: "Shruti Kumari",
+      role: "Science Teacher",
+      department: "Science",
+      credentials: "Intermediate of Science and Diploma in Elementary Education(D.El.Ed)",
+      experience: "1 year coaching experience",
       quote: "A healthy body nurtures a healthy mind.",
     },
   ];

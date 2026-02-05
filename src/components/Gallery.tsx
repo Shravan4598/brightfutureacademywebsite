@@ -37,11 +37,6 @@ const Gallery = () => {
       title: "Music & Orchestra",
       category: "Performing Arts",
     },
-    {
-      image: galleryCafeteria,
-      title: "Dining Hall",
-      category: "Campus Life",
-    },
   ];
 
   const openLightbox = (index: number) => {
@@ -56,10 +51,15 @@ const Gallery = () => {
 
   const navigateImage = (direction: "prev" | "next") => {
     if (selectedImage === null) return;
+
     if (direction === "prev") {
-      setSelectedImage(selectedImage === 0 ? galleryItems.length - 1 : selectedImage - 1);
+      setSelectedImage(
+        selectedImage === 0 ? galleryItems.length - 1 : selectedImage - 1
+      );
     } else {
-      setSelectedImage(selectedImage === galleryItems.length - 1 ? 0 : selectedImage + 1);
+      setSelectedImage(
+        selectedImage === galleryItems.length - 1 ? 0 : selectedImage + 1
+      );
     }
   };
 
@@ -72,12 +72,11 @@ const Gallery = () => {
             Campus Life
           </span>
           <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Explore Our{" "}
-            <span className="text-gradient-gold">Campus</span>
+            Explore Our <span className="text-gradient-gold">Campus</span>
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Take a visual tour of our modern facilities, vibrant classrooms, 
-            and the enriching activities that make Bright Future Academy special.
+            Take a visual tour of our modern facilities, vibrant classrooms, and
+            the enriching activities that make Bright Future Academy special.
           </p>
         </div>
 
@@ -129,32 +128,6 @@ const Gallery = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* CTA */}
-        <div className="text-center mt-12">
-          <p className="text-muted-foreground mb-4">
-            Want to see more? Schedule a campus tour today!
-          </p>
-          <a
-            href="#contact"
-            className="inline-flex items-center gap-2 text-secondary font-semibold hover:text-secondary/80 transition-colors"
-          >
-            Book a Tour
-            <svg
-              className="w-5 h-5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M17 8l4 4m0 0l-4 4m4-4H3"
-              />
-            </svg>
-          </a>
         </div>
       </div>
 

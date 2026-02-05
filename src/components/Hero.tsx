@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
-import heroImage from "@/assets/hero-school.jpg";
+import heroImage from "@/assets/hero-school.png";
 
 const Hero = () => {
   return (
@@ -61,7 +61,7 @@ const Hero = () => {
           <div className="grid grid-cols-3 gap-8 mt-16 pt-8 border-t border-primary-foreground/20 animate-fade-in [animation-delay:400ms]">
             <div>
               <p className="font-display text-3xl sm:text-4xl font-bold text-secondary">
-                25+
+                5+
               </p>
               <p className="text-primary-foreground/70 text-sm mt-1">
                 Years of Excellence
@@ -69,7 +69,7 @@ const Hero = () => {
             </div>
             <div>
               <p className="font-display text-3xl sm:text-4xl font-bold text-secondary">
-                500+
+                200+
               </p>
               <p className="text-primary-foreground/70 text-sm mt-1">
                 Happy Students

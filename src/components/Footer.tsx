@@ -11,11 +11,12 @@ const Footer = () => {
   ];
 
   const resources = [
-    { name: "Parent Portal", href: "#" },
+    {
+      name: "Parent Portal",
+      href: "https://github.com/Shravan4598/brightfutureacademywebsite",
+    },
     { name: "Student Handbook", href: "#" },
     { name: "School Calendar", href: "#" },
-    { name: "Lunch Menu", href: "#" },
-    { name: "Transportation", href: "#" },
     { name: "FAQs", href: "#" },
   ];
 
@@ -47,7 +48,7 @@ const Footer = () => {
               </div>
             </a>
             <p className="text-primary-foreground/70 leading-relaxed mb-6">
-              Nurturing minds, building futures. Providing exceptional education 
+              Nurturing minds, building futures. Providing exceptional education
               since 1999.
             </p>
             <div className="flex gap-4">
@@ -125,7 +126,11 @@ const Footer = () => {
       <div className="border-t border-primary-foreground/10">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-primary-foreground/60">
-            <p>© 2025 Bright Future Academy. All rights reserved.</p>
+            <div className="flex flex-col items-center sm:items-start gap-1">
+              <p>© 2026 Bright Future Academy. All rights reserved.</p>
+              <p className="text-xs">Designed & Developed with Shravan Kumar Pandey</p>
+            </div>
+
             <div className="flex gap-6">
               <a href="#" className="hover:text-secondary transition-colors">
                 Privacy Policy

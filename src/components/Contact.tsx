@@ -6,12 +6,12 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Address",
-      details: ["123 Education Lane", "Springfield, ST 12345"],
+      details: ["Near PANDEY GENERAL STORE", " Doranda dhanwar road sirmandih 825412, Jharkhand, India"],
     },
     {
       icon: Phone,
       title: "Phone",
-      details: ["(555) 123-4567", "(555) 123-4568"],
+      details: ["+91  7764081843", "+91 6200820278","+91 9153315926"],
     },
     {
       icon: Mail,

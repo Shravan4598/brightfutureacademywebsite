@@ -107,7 +107,7 @@ const Features = () => {
               confidence and love for learning."
             </blockquote>
             <div>
-              <p className="font-semibold text-foreground">Sarah Johnson</p>
+              <p className="font-semibold text-foreground">Rajendra Ram</p>
               <p className="text-muted-foreground text-sm">Parent of Grade 4 Student</p>
             </div>
           </div>

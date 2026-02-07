@@ -2,11 +2,11 @@ import { Mail, Linkedin } from "lucide-react";
 
 import facultyPrincipal from "@/assets/faculty-principal.jpeg";
 import facultyScience from "@/assets/faculty-science.jpeg";
-import facultyEnglish from "@/assets/faculty-english.jpg";
+import facultyEnglish from "@/assets/faculty-english.jpeg";
 import facultyMath from "@/assets/faculty-math.jpeg";
 import facultyArt from "@/assets/faculty-art.jpg";
-import facultyMath1 from "@/assets/faculty-pe.jpg";
-import facultyPe1 from "@/assets/faculty-pe1.jpg";
+import facultyMath1 from "@/assets/faculty-pe.jpeg";
+import facultyPe1 from "@/assets/faculty-pe1.jpeg";
 import facultyPe2 from "@/assets/faculty-pe2.jpg";
 
 
